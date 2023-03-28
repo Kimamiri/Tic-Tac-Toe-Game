@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Alkatra', cursive ;
+}
+body {
+    background: rgb(50, 3, 121);
+  }
+ 
+.select-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: aliceblue;
+    padding: 20px 25px 25px;
+    border-radius: 15px;
+    max-width: 350px;
+    width: 100%;
+}
+.select-box h1{
+  font-size: 30px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(218, 148, 255);
+}
+.select-box .title{
+    font-size: 19px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+.select-box .options{
+    display: flex;
+    width: 100%;
+}
+.options button{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    background-color: rgb(125, 36, 209);
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;   
+}
+.options button.playerA{
+    margin-right: 12px;
+}
+
+
+
+
+
+
